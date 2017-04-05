@@ -1,0 +1,28 @@
+body {
+    background: #f48fb1;
+}
+table {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border: 2px solid #f48fb1;
+}
+td {
+    padding: 3px;
+    border: 1px solid #c51162;
+    width: 33%;
+    height: 33%;
+    text-align: center;
+    font-size: 6em;
+    font-family: Helvetica;
+    color: #c51162;
+
+
+}
+input {
+    margin-left: 43%;
+    font-size: 2em;
+    width: 14%;
+    font-family: Helvetica;
+}
