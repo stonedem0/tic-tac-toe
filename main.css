@@ -14,10 +14,14 @@ body {
     color: #c51162;
     background-color: #f48fb1;
     font-size: 2em;
-
 }
+
 #players1, #players2  {
     display: flex;
+}
+
+#turn1, #turn2  {
+    color: #c51162;
 }
 
 table {
