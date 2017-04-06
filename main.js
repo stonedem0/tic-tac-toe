@@ -1,19 +1,33 @@
 
 var boxes = document.getElementsByClassName("box");
-var startGameButton = document.getElementById("startGame");
+var restartGameButton = document.getElementById("startGame");
+var game = document.getElementById("game");
+var startGameButton = document.getElementById("startGameButton");
+
+var startGame = function () {
+    startGameButton.classList.add("hidden");
+
+};
+var gameLoad = function () {
+    game.classList.remove("hidden")
+};
+startGameButton.onclick = function () {
+    startGame();
+    gameLoad();
+};
 
 var enumerateElements = function (elements, func) {
     Array.prototype.forEach.call(elements, func);
 };
 
 var restartGame = function () {
-    startGameButton.value = "RESTART";
+    restartGameButton.value = "RESTART";
     enumerateElements(boxes, function (element) {
         element.innerHTML = null;
     });
 };
 
-startGameButton.onclick = function () {
+restartGameButton.onclick = function () {
     restartGame();
 };
 

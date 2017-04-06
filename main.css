@@ -1,5 +1,19 @@
 body {
     background: #f48fb1;
+    font-family: Helvetica;
+}
+.hidden {
+    display: none;
+}
+#startGameButton {
+    margin-top: 22%;
+    margin-left: 41%;
+    width: 18%;
+    border: 2px solid #c51162;
+    color: #c51162;
+    background-color: #f48fb1;
+    font-size: 2em;
+
 }
 table {
     width: 500px;
@@ -15,14 +29,15 @@ td {
     height: 33%;
     text-align: center;
     font-size: 6em;
-    font-family: Helvetica;
     color: #c51162;
 
 
 }
 input {
     margin-left: 43%;
-    font-size: 2em;
     width: 14%;
-    font-family: Helvetica;
+    border: 2px solid #c51162;
+    color: #c51162;
+    background-color: #f48fb1;
+    font-size: 2em;
 }
