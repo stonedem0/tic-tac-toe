@@ -94,11 +94,13 @@ function step(event) {
     if (winnerX)
     {
         alert("PLAYER 1 WINS!");
+        restartGame()
     }
 
     if (winnerO)
     {
         alert("PLAYER 2 WINS");
+        restartGame()
     }
 
     var isGameFinished = true;
@@ -116,6 +118,7 @@ function step(event) {
 
     if (winnerO == false && winnerX == false && isGameFinished){
         alert("TIE!");
+        restartGame()
     }
 }
 
