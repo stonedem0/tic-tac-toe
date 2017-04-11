@@ -16,11 +16,8 @@ body {
     font-size: 2em;
 }
 
-#players1, #players2  {
-    display: flex;
-}
-
-#turn1, #turn2  {
+h1 {
+    margin-left: 41%;
     color: #c51162;
 }
 
